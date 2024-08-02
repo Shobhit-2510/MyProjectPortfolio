@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-     <div className="HelloWorld">
+     <div className="HelloWorld bg-slate-300 text-center text-4xl py-3">
       Hello World
      </div>
     </>

@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Footer = () => {
   return (
     <footer className="bg-zinc-900 text-white flex flex-col h-[20vh] md:h-[30vh] justify-center">
@@ -32,12 +33,12 @@ const Footer = () => {
           <h1 className="text-sm md:text-xl mb-2">Follow on:</h1>
           <h2 className="text-xs md:text-sm flex justify-evenly">
             <img
-              src="src/assets/fb.png"
+              src="./images/fb.png"
               alt=""
               className="bg-white w-6 h-6 md:h-8 md:w-8 rounded-full"
             />
             <img
-              src="src/assets/insta.png"
+              src="./images/insta.png"
               alt=""
               className="bg-white w-6 h-6 md:h-8 md:w-8 rounded-[7px] md:rounded-[10px]"
             />

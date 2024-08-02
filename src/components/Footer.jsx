@@ -1,14 +1,19 @@
 import React from "react";
 
-
 const Footer = () => {
   return (
     <footer className="bg-zinc-900 text-white flex flex-col h-[20vh] md:h-[30vh] justify-center">
       <div className="content flex justify-center gap-4 md:gap-16 items-center ">
         <div className="left">
-          <h1 className="text-sm md:text-xl mb-2 text-center">Contact details:</h1>
-          <h2 className="text-xs md:text-sm text-center">+91-9319894169</h2>
-          <h2 className="text-xs md:text-sm text-center">+91-9311819982</h2>
+          <h1 className="text-sm md:text-xl mb-2 text-center">
+            Contact details:
+          </h1>
+          <h2 className="text-xs md:text-sm text-center">
+            <a href="tel:+919319894169">+91-9319894169</a>
+          </h2>
+          <h2 className="text-xs md:text-sm text-center">
+            <a href="tel:+9193118199982">+91-9311819982</a>
+          </h2>
         </div>
         <div className="mid">
           <h1 className="text-sm md:text-xl mb-2 text-center">Email:</h1>

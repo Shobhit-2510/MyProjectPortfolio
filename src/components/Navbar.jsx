@@ -23,8 +23,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav
-        className="navbar relative z-[1] flex items-center justify-between px-4 md:px-8 lg:px-36 xl:px-48  h-16 md:h-24 bg-white"
+      <nav className="navbar sticky top-0 z-[1] flex items-center justify-between px-4 md:px-8 lg:px-36 xl:px-48  h-16 md:h-24 bg-white"
         id="top"
       >
         <Link className="logo bg-black h-10 w-10 md:w-16 md:h-16 rounded-full flex justify-center items-center text-white"

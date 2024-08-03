@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -54,10 +55,11 @@ const Footer = () => {
         <div className="line bg-gray-400 w-[1px] h-full hidden sm:block "></div>
         <div className="rightmost  flex-col justify-center hidden sm:flex ">
           <h1 className="text-sm md:text-xl mb-2">Links</h1>
-          <a className="text-xs md:text-sm" href="#Home">Home</a>
-          <a className="text-xs md:text-sm" href="#Project">Project</a>
-          <a className="text-xs md:text-sm" href="#Resume">Resume</a>
-          <a className="text-xs md:text-sm" href="#About">About</a>
+          <Link className="text-xs md:text-sm" to="/Portfolio/">Home</Link>
+          <Link className="text-xs md:text-sm" to="/Portfolio/Projects">Projects</Link>
+          <Link className="text-xs md:text-sm" to="/Portfolio/Resume">Resume</Link>
+          <Link className="text-xs md:text-sm" to="/Portfolio/About">About</Link>
+          <Link className="text-xs md:text-sm" to="/Portfolio/Contact">Contact</Link>
         </div>
       </div>
     </footer>

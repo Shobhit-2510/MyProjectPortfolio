@@ -38,12 +38,14 @@ const Footer = () => {
         <div className="right">
           <h1 className="text-sm md:text-xl mb-2">Follow on:</h1>
           <h2 className="text-xs md:text-sm flex justify-evenly">
-            <img
-              src="./images/fb.png"
-              alt=""
-              className="bg-white w-6 h-6 md:h-8 md:w-8 rounded-full"
-            />
-            <a href="https://www.instagram.com/shobhit_549/">
+            <a href="https://github.com/Shobhit-2510" target="_blank">
+              <img
+                src="./images/github-mark-white.png"
+                alt=""
+                className=" w-6 h-6 md:h-8 md:w-8 rounded-full"
+              />
+            </a>
+            <a href="https://www.instagram.com/shobhit_549/" target="_blank">
               <img
                 src="./images/insta.png"
                 alt=""
@@ -55,11 +57,21 @@ const Footer = () => {
         <div className="line bg-gray-400 w-[1px] h-full hidden sm:block "></div>
         <div className="rightmost  flex-col justify-center hidden sm:flex ">
           <h1 className="text-sm md:text-xl mb-2">Links</h1>
-          <Link className="text-xs md:text-sm" to="/Portfolio/">Home</Link>
-          <Link className="text-xs md:text-sm" to="/Portfolio/Projects">Projects</Link>
-          <Link className="text-xs md:text-sm" to="/Portfolio/Resume">Resume</Link>
-          <Link className="text-xs md:text-sm" to="/Portfolio/About">About</Link>
-          <Link className="text-xs md:text-sm" to="/Portfolio/Contact">Contact</Link>
+          <Link className="text-xs md:text-sm" to="/Portfolio/">
+            Home
+          </Link>
+          <Link className="text-xs md:text-sm" to="/Portfolio/Projects">
+            Projects
+          </Link>
+          <Link className="text-xs md:text-sm" to="/Portfolio/Resume">
+            Resume
+          </Link>
+          <Link className="text-xs md:text-sm" to="/Portfolio/About">
+            About
+          </Link>
+          <Link className="text-xs md:text-sm" to="/Portfolio/Contact">
+            Contact
+          </Link>
         </div>
       </div>
     </footer>

@@ -13,9 +13,10 @@ function App() {
   return (
     <>
       <Router>
+        {/**To scroll to top on changing route */}
         <ScrollToTop />
         <Navbar />
-        <div className="text-center text-4xl py-3 h-[100vh] text-black">
+        <div className="Content text-center text-4xl py-3 h-[100vh] text-black">
           <Routes>
             <Route path="/Portfolio/" Component={Homepage} />
             <Route path="/Portfolio/Projects" Component={ProjectsPage} />
